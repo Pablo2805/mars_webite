@@ -1,6 +1,5 @@
 body {
     display: flex;
-    height: 100vh;
     width: 100vw;
     margin: 0px; 
     background-color:darkslategray;
@@ -11,12 +10,13 @@ body {
 
 .nav_bar {
     display: flex;
-    height: 15%;
+    height: 100px;
     width: 96%;
     background-color:cyan;
     border: solid 1px black;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .title {
@@ -41,14 +41,15 @@ body {
     align-items: center;
 }
 
-.five {
+.left {
     display: flex;
-    height: 75%;
+    height: auto;
     width: 96%;
     background-color:cyan ;
     border: solid 1px black;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 15px;
 }
 
 .about {
@@ -59,7 +60,7 @@ body {
     margin-left: 20px;
 }
 
-.seven {
+.pict {
     display: flex;
     height: 90%;
     width: 40%;
@@ -71,3 +72,9 @@ body {
     align-items: center;
 }
 
+span {
+    color: crimson;
+}
+.centre {
+    text-align:center
+}

@@ -4,8 +4,6 @@ body {
     width: 100vw;
     margin: 0px;
     background-color:darkslategray
-    
-
 }
 
 .nav_bar {
@@ -38,4 +36,11 @@ body {
     margin-right: 20px;
     justify-content: space-around;
     align-items: center;
+}
+
+span {
+    color: crimson;
+}
+.centre {
+    text-align:center;
 }
