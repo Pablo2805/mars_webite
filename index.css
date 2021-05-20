@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    width: 100vw;
+    margin: 0px; 
+    background-color:darkslategray;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_bar {
+    display: flex;
+    height: 100px;
+    width: 96%;
+    background-color:cyan;
+    border: solid 1px black;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.title {
+    display: flex;
+    height: 80%;
+    width: 15%;
+    background-color:crimson;
+    border: solid 1px black;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    height: 80%;
+    width: 40%;
+    background-color: crimson;
+    border: solid 1px black;
+    margin-right: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    height: auto;
+    width: 96%;
+    background-color:cyan ;
+    border: solid 1px black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+.about {
+    height: 90%;
+    width: 50%;
+    background-color: yellow;
+    border: solid 1px black;
+    margin-left: 20px;
+}
+
+.pict {
+    display: flex;
+    height: 90%;
+    width: 40%;
+    background-color:crimson;
+    border: solid 1px black;
+    margin-right: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+span {
+    color: crimson;
+}
+.centre {
+    text-align:center
+}
